@@ -1,6 +1,8 @@
 import "../styles/tailwind.css";
 import "../styles/slick.css";
 
-function MyApp();
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />;
+}
 
 export default MyApp;
